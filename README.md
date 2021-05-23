@@ -2,15 +2,15 @@
 
 **In order to run the test from commandLine:**
 
-3.1.  Open a commandLine window
+1.  Open a commandLine window
 
-3.2.  Navigate to the recently cloned folder cs-applitools-java-hackathon
+2.  Navigate to the recently cloned folder cs-applitools-java-hackathon
 -  run `npm install`
 - run `npx eyes-setup`
 - run for a mac: `export APPLITOOLS_API_KEY=<YOUR_API_KEY>` for windows: `set APPLITOOLS_API_KEY=<YOUR_API_KEY>`
 - Or hard code API key into applitools.config.js
     
-3.3.  Run one of the following commands:
+3.  Run one of the following commands:
 - To run Visual AI Test Suite on Version 1:
     - `npm run V1`
 - To run Visual AI Test Suite on Version 2:
