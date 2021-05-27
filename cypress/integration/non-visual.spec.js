@@ -25,7 +25,7 @@ describe("Validate Labels", () => {
     );
   });
 
-  // Assert Text of Password Label
+  // Assert Text of Password Labeld
   it("Password", () => {
     cy.get("form > div:nth-child(2) > label").should("contain", "Password");
   });

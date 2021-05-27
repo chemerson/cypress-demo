@@ -1,15 +1,13 @@
 module.exports = {
-    apiKey: '8pVdTA8n6joSM18VHrggfo9OHmhaFjepyAbkdrZ1NcU110',
+    apiKey: '8olVp8YyRm7JTrCEN3w4GfY6K5rw110GVai3x2K104WeLpQ110',
     showLogs: false,
     concurrency: 10,
     //
     browser: [
         // Add browsers with different viewports
-        {width: 800, height: 600, name: 'chrome'},
-        {width: 800, height: 600, name: 'firefox'},
-        {width: 1600, height: 1200, name: 'ie11'},
-        {width: 1024, height: 768, name: 'edgechromium'},
-        {width: 800, height: 600, name: 'safari'},
+        {width: 1024, height: 768, name: 'chrome'},
+        {width: 1024, height: 768, name: 'firefox'},
+        {width: 1024, height: 768, name: 'safari'},
         { iosDeviceInfo: {deviceName: 'iPhone X', 
           screenOrientation: 'portrait', 
           version: 'latest'}},
@@ -19,7 +17,7 @@ module.exports = {
         { chromeEmulationInfo: {deviceName: 'Pixel 4 XL'}}
      ],
     // set batch name to the configuration
-    batchName: 'Cypress Demo'
+    batchName: 'Applitools Demo'
   }
 
      
