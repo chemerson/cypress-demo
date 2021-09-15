@@ -11,7 +11,7 @@ describe('Visual Validation Applitools', () =>{
     beforeEach(function() {
         cy.eyesOpen({
             appName: 'cypress demo 1',
-            branchName: 'cypress demo 1',
+            branchName: 'cypress demo 090821',
             parentBranchName: 'cypress demo parent 1',
             testName: this.currentTest.title,
         })

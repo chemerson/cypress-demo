@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "V1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html ./applitools.spec.js",
-    "V2": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=2 ./applitools.spec.js"
+    "V2": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=2 ./applitools.spec.js",
+    "VCL1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=1&changelogo=true"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.21.0",
-    "cypress": "^7.3.0"
+    "cypress": "^8.4.0"
   }
 }
