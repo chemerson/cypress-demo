@@ -17,7 +17,7 @@ describe("rcoPocTest", () => {
     afterEach(() => {
         cy.eyesClose()
     }) 
-/*
+
     it('Applitools Demo Page', () => {
         let url = 'https://demo.applitools.com/app.html'
         cy.visit(url);
@@ -42,7 +42,7 @@ describe("rcoPocTest", () => {
         cy.visit(url);
         cy.eyesCheckWindow(url)  
     })
-*/
+
 
     it('RCB hompage', () => {
         let url = 'https://stage-www.redcrossblood.org/'
@@ -51,7 +51,6 @@ describe("rcoPocTest", () => {
         cy.eyesCheckWindow(url)  
     })
 
-/*
     it('Local Tenessee page url', () => {
         let url = 'https://stage-www.redcross.org/local/tennessee.html'
         cy.visit(url);
@@ -73,6 +72,6 @@ describe("rcoPocTest", () => {
         cy.visit(url)
         cy.eyesCheckWindow(url)  
     })
-    */      
+    
 });
 
