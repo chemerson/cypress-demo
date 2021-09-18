@@ -17,7 +17,7 @@ describe("rcoPocTest", () => {
     afterEach(() => {
         cy.eyesClose()
     }) 
-/*
+
     it('Applitools Demo Page', () => {
         let url = 'https://demo.applitools.com/app.html'
         cy.visit(url);
@@ -43,9 +43,11 @@ describe("rcoPocTest", () => {
         cy.eyesCheckWindow(url)  
     })
 
+
     it('RCB hompage', () => {
         let url = 'https://stage-www.redcrossblood.org/'
         cy.visit(url);
+        cy.get('#chat-cta', { timeout: 10000 }).should('be.visible');
         cy.eyesCheckWindow(url)  
     })
 
@@ -55,17 +57,21 @@ describe("rcoPocTest", () => {
         cy.eyesCheckWindow(url)  
     })
 
-
     it('RCO account sign in page url', () => {
         let url = 'https://stage-www.redcross.org/account.html/sign-in'
         cy.visit(url)
-        cy.pause()
+        cy.window().then((win) => {
+            win.eval('document.querySelector("body").style.opacity = "1"')
+        });
         cy.eyesCheckWindow(url)  
     })
-*/
+
+    
     it('RCO about url', () => {
         let url = 'https://stage-www.redcross.org/about-us.html'
         cy.visit(url)
         cy.eyesCheckWindow(url)  
-    })      
+    })
+    
 });
+
