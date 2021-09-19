@@ -25,39 +25,40 @@ describe("sandbox", () => {
         cy.eyesCheckWindow(url)  
     }) */
 
+    function getPageHeight(win) {
+        var clientHeight = win.document.documentElement.clientHeight
+        var bodyClientHeight = win.document.body.clientHeight
+        var scrollHeight = win.document.documentElement.scrollHeight
+        var bodyScrollHeight = win.document.body.scrollHeight
+        var maxDocElementHeight = Math.max(clientHeight, scrollHeight);
+        var maxBodyHeight = Math.max(bodyClientHeight, bodyScrollHeight);
+        return Math.max(maxDocElementHeight, maxBodyHeight);
+    };
+
+    function lazyLoadPage(win) {
+        var height =  win.innerHeight
+        var pageHeight = getPageHeight(win);
+        win.scrollTo(0,2000)
+        for (var j = 0; j < pageHeight; j += (height - 15)) {
+            win.scrollTo(0,j)
+            height =  win.innerHeight
+            pageHeight = getPageHeight(win);
+            //cy.wait(2000);
+        }
+        win.scrollTo(0, 0)
+        //cy.wait(500)
+    };
+
     it('Long Page', () => {
-        let url = 'https://en.wikipedia.org/wiki/Atom'
+        // let url = 'https://en.wikipedia.org/wiki/Atom'
+        let url = 'https://wayfair.com'
         cy.visit(url,
-            {
-                onLoad: (win) => {
+        {
+            onLoad: (win) => {
 
-                    async function getPageHeight() {
-                        var clientHeight = win.document.documentElement.clientHeight
-                        var bodyClientHeight = win.document.body.clientHeight
-                        var scrollHeight = win.document.documentElement.scrollHeight
-                        var bodyScrollHeight = win.document.body.scrollHeight
-                        var maxDocElementHeight = Math.max(clientHeight, scrollHeight);
-                        var maxBodyHeight = Math.max(bodyClientHeight, bodyScrollHeight);
-                        return Math.max(maxDocElementHeight, maxBodyHeight);
-                    };
-
-                    async function lazyLoadPage() {
-                        var height =  window.innerHeight
-                        var pageHeight = await getPageHeight();
-                        for (var j = 0; j < pageHeight; j += (height - 15)) {
-                            win.scrollTo(0,j)
-                            height =  win.innerHeight
-                            pageHeight = await getPageHeight(driver);
-                            cy.wait(2000);
-                        }
-                        win.scrollTo(0, 0)
-                        cy.wait(500)
-                    };
-                    lazyLoadPage()
-                }           
+            }           
         });
 
-        
         cy.eyesCheckWindow(url)  
     })
     
