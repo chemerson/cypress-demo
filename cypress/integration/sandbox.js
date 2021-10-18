@@ -55,9 +55,13 @@ describe("sandbox", () => {
         cy.visit(url,
         {
             onLoad: (win) => {
-
+               // win.scrollTo(0,2000)
             }           
         });
+
+        cy.scrollTo('bottom', {duration: 3000})
+        cy.scrollTo('bottom', {duration: 3000})
+        cy.scrollTo('bottom', {duration: 3000})
 
         cy.eyesCheckWindow(url)  
     })

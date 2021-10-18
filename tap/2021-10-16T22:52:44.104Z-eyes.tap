@@ -1,0 +1,972 @@
+1..240
+ok 1 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149801?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 2 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149841?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 3 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149830?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 4 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149771?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 5 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149832?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 6 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149833?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 7 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149794?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 8 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149845?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 9 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149849?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 10 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149848?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 11 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149754?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 12 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149810?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 13 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149799?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 14 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149802?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 15 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/news-and-events/publications.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149786?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 16 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149156?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 17 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149160?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 18 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149066?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 19 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149218?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 20 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149127?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 21 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149062?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 22 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149051?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 23 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149113?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 24 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149108?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 25 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149095?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 26 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149093?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 27 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149082?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 28 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149129?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 29 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149171?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 30 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donations/ways-to-donate.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876149142?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 31 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144306?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 32 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144451?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 33 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144242?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 34 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144404?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 35 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144303?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 36 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144335?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+not ok 37 - [FAILED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144374?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 38 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144273?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+not ok 39 - [FAILED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144353?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 40 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144296?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 41 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144373?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+not ok 42 - [FAILED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144275?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+not ok 43 - [FAILED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144288?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 44 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144336?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 45 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876144327?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 46 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139904?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 47 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139983?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 48 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140178?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 49 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139936?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 50 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139935?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 51 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139982?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 52 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140183?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 53 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139873?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 54 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140011?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 55 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140209?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 56 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140186?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 57 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140147?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 58 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139825?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 59 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876139888?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 60 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876140058?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 61 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136136?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 62 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136138?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 63 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136043?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 64 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136191?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 65 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136162?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 66 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136167?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 67 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136107?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 68 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876135980?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 69 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136144?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 70 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136053?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 71 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136105?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 72 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136060?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 73 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136074?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 74 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136238?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 75 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/vc.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876136084?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 76 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130386?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 77 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130378?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 78 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130269?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 79 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130295?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 80 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130310?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 81 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130261?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 82 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130284?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 83 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130300?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 84 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130233?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 85 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130357?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 86 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130230?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 87 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130268?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 88 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130394?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 89 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130264?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 90 - [PASSED TEST] Test: 'https://stage-www.redcross.org/donate/donation.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876130263?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 91 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126439?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 92 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126534?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+not ok 93 - [FAILED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126311?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 94 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126247?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 95 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126433?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 96 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126471?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 97 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126377?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 98 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126342?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 99 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126216?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 100 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126339?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 101 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126408?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 102 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126503?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 103 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126389?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 104 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126294?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 105 - [PASSED TEST] Test: 'https://stage-www.redcross.org/give-blood.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876126417?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 106 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122626?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 107 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122779?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 108 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122591?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 109 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122698?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 110 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122627?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 111 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122673?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 112 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122654?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 113 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122607?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 114 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122635?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 115 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122689?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 116 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122642?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 117 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122685?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 118 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122720?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 119 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122651?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 120 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sso/defaultsso.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876122700?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 121 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118149?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 122 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118172?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 123 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118125?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 124 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117906?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 125 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117991?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 126 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118106?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 127 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117992?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 128 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117984?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 129 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117969?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 130 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118169?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 131 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118071?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 132 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876117953?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 133 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118109?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 134 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118231?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 135 - [PASSED TEST] Test: 'https://stage-www.redcross.org/sound-the-alarm.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876118147?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 136 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113584?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 137 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113585?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 138 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113512?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 139 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113622?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 140 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113474?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 141 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113646?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 142 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113492?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 143 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113450?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 144 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113560?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 145 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113490?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 146 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113740?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 147 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113554?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 148 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113669?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 149 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113591?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 150 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876113725?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 151 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108931?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 152 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108905?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 153 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108883?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 154 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108900?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 155 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108909?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 156 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108894?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 157 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876109010?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 158 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108873?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 159 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108852?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 160 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108916?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 161 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108994?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 162 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108836?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 163 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108979?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 164 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108951?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 165 - [PASSED TEST] Test: 'https://stage-www.redcross.org/about-us/careers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876108972?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+not ok 166 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876102200?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+not ok 167 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103227?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+not ok 168 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876102212?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+not ok 169 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876102216?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+not ok 170 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103382?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+not ok 171 - [FAILED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103294?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 172 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103353?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 173 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103258?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 174 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103263?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 175 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103335?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 176 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876102169?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 177 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103195?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 178 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876102228?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 179 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103309?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 180 - [PASSED TEST] Test: 'https://stage-www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876103351?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 181 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097871?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 182 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097726?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+not ok 183 - [FAILED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Mismatches: 1
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097681?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 184 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097746?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 185 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097771?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 186 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097808?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 187 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097679?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 188 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097712?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 189 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097715?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 190 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097724?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 191 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097762?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 192 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097757?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 193 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097806?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 194 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097731?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 195 - [PASSED TEST] Test: 'https://stage-www.redcross.org/volunteer/become-a-volunteer/urgent-need-for-volunteers.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876097692?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 196 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092458?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 197 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092516?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 198 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092996?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 199 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092555?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 200 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092489?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 201 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092446?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 202 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092923?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 203 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092965?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 204 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092477?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 205 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092539?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 206 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092505?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 207 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092579?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 208 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092949?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 209 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092508?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 210 - [PASSED TEST] Test: 'https://stage-www.redcross.org/search-the-red-cross-site.html/search', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876092602?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 211 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087171?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 212 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087101?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 213 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086805?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 214 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086797?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 215 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087067?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 216 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087139?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 217 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087070?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 218 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086727?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 219 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086974?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 220 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087062?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 221 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087108?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 222 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087007?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 223 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086989?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 224 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876086774?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 225 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876087125?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869
+#
+ok 226 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081702?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 1024x768
+#
+ok 227 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081631?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 1024x768
+#
+ok 228 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876082036?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 1024x768
+#
+ok 229 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081655?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 1024x768
+#
+ok 230 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876082067?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 1024x768
+#
+ok 231 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081850?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 1024x768
+#
+ok 232 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081680?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 500x768
+#
+ok 233 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081851?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 92.0, Viewport: 500x768
+#
+ok 234 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081842?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 500x768
+#
+ok 235 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081859?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 93.0, Viewport: 500x768
+#
+ok 236 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081911?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Firefox 91.0, Viewport: 500x768
+#
+ok 237 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081796?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 13.0, Viewport: 500x768
+#
+ok 238 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081599?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 375x812
+#
+ok 239 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081686?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Safari 14.0, Viewport: 390x844
+#
+ok 240 - [PASSED TEST] Test: 'https://stage-www.redcross.org/verizon-helps.html', Application: ' Cypress App'
+#	Test url: https://eyes.applitools.com/app/test-results/00000251767876150192/00000251767876081601?accountId=2WhnilIEL06AzP6xU4Dzyg~~
+#	Browser: Chrome 94.0, Viewport: 412x869

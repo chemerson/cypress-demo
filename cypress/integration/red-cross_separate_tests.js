@@ -1,6 +1,8 @@
+'use strict';
+
 describe("rcoPocTest", () => {
 
-    beforeEach(function() {
+    beforeEach(async function() {
         cy.on('uncaught:exception', (err, runnable) => {
             // returning false here prevents Cypress from
             // failing the test
@@ -13,17 +15,22 @@ describe("rcoPocTest", () => {
             testName: this.currentTest.title,
         })
     })
-
-    afterEach(() => {
+    
+    afterEach(async () => {
         cy.eyesClose()
     }) 
 
-    it('Applitools Demo Page', () => {
-        let url = 'https://demo.applitools.com/app.html'
+    it('RCO Verizon help url 1', () => {
+        let url = 'https://stage-www.redcross.org/verizon-helps.html'
         cy.visit(url);
-        cy.eyesCheckWindow(url)  
+        cy.eyesCheckWindow(url)
     })
 
+    it('RCO Verizon help url 2', () => {
+        let url = 'https://stage-www.redcross.org/verizon-helps.html'
+        cy.visit(url);
+        cy.eyesCheckWindow(url)
+    })
 
     it('Red Cross Home Page', () => {
         let url = 'https://stage-www.redcross.org'
@@ -42,7 +49,6 @@ describe("rcoPocTest", () => {
         cy.visit(url);
         cy.eyesCheckWindow(url)  
     })
-
 
     it('RCB hompage', () => {
         let url = 'https://stage-www.redcrossblood.org/'
@@ -65,7 +71,6 @@ describe("rcoPocTest", () => {
         });
         cy.eyesCheckWindow(url)  
     })
-
     
     it('RCO about url', () => {
         let url = 'https://stage-www.redcross.org/about-us.html'
