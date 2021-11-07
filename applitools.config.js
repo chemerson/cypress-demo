@@ -2,14 +2,14 @@ module.exports = {
     apiKey: process.env.APPLITOOLS_API_KEY,
     showLogs: false,
     testConcurrency: 100,
-    disableBrowserFetching: true,
-    failCypressOnDiff: true,
+    disableBrowserFetching: false,
     batchSequenceName: 'RCA POC',
     saveDebugData: false,
     ignoreDisplacements: true,
     polyfillAdoptedStyleSheets: true,
     failCypressOnDiff: false,
     tapDirPath: './tap',
+    layoutBreakpoints: true,
     browser: [
         // Add browsers with different viewports
         {width: 1024, height: 768, name: 'chrome'},

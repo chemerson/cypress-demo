@@ -39,11 +39,8 @@ describe('Cypress Applitools Demo', () => {
         batchName = testName;
 
             cy.fixture("urls.csv").then((urls) => {
-
                 var my_urls = urls.split('\n');
-
                 for(var url = 1; url < my_urls.length; url++){  
-                
                     if(my_urls[url] != '')
                     {
                         cy.log("******************** URL#" + my_urls[url] + "********************");
