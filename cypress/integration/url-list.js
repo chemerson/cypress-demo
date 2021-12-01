@@ -7,6 +7,7 @@ describe('Cypress Applitools Demo', () => {
     var testName = "";
     var batchName = "";
     var matchLevel  = "";
+    var branchName = "";
 
     cy.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
@@ -54,10 +55,10 @@ describe('Cypress Applitools Demo', () => {
 
                         testName = my_urls[url]
                     
-                        //cy.scrollTo('bottom', {duration: 250})
-                        //cy.scrollTo('top', {duration: 250})
+                       // cy.scrollTo('bottom', {duration: 250})
+                       // cy.scrollTo('top', {duration: 250})
 
-                        cy.wait(2000)
+                        cy.wait(500)
 
                         cy.eyesOpen({
                             appName: appName,
