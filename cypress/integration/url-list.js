@@ -53,6 +53,10 @@ describe('Cypress Applitools Demo', () => {
                             failOnStatusCode: false
                         });
 
+                        cy.window().then((win) => {
+                            win.eval('document.querySelector("body").style.opacity = "1"')
+                        });
+
                         testName = my_urls[url]
                     
                        // cy.scrollTo('bottom', {duration: 250})

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "url-list": "npx cypress run --headless -b chrome --spec cypress/integration/url-list.js --config video=false",
-    "redcross": "npx cypress run --headed -b chrome --spec cypress/integration/red-cross_separate_tests.js",
+    "url-list": "npx cypress run --headed -b chrome --spec cypress/integration/url-list.js --config video=false",
+    "redcross": "npx cypress run --headed -b chrome --spec cypress/integration/red-cross-main-nav.js",
     "V1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html ./applitools.spec.js",
     "V2": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=2 ./applitools.spec.js",
     "VCL1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=1&changelogo=true"
@@ -14,6 +14,6 @@
   "license": "ISC",
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.22.6",
-    "cypress": "^8.7.0"
+    "cypress": "^9.1.0"
   }
 }
