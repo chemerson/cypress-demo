@@ -7,9 +7,13 @@ describe("AppTest", () => {
             return false
         }) 
 
-
-        var content = cy.readFile('cypress/integration/BCS-main-nav.txt','utf8');
-        cy.log(content)
+        var content
+        cy.readFile('cypress/integration/BCS-main-nav.txt')
+            .then(($content) => (content = $content))
+            .then(() => {
+                cy.log(content)
+          });
+        
 
 /*          
         // Call Open on eyes to initialize a test session
