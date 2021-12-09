@@ -1,0 +1,67 @@
+// BCS / scripthook to use to get main nav menu
+
+var getStyle = function(className,pseudoClassName) {
+    let classNameWithPseudo = '.' + className + ':' + pseudoClassName;
+    var x, sheets, classes;
+    var style = [];
+    for (sheets = document.styleSheets.length - 1; sheets >= 0; sheets--) {
+        classes = document.styleSheets[sheets].rules || document.styleSheets[sheets].cssRules;
+        for (x = 0; x < classes.length; x++) {
+            let selectorClass;
+            if(classes[x].media !== undefined)
+                selectorClass = classes[x].cssText;
+            else
+                selectorClass = classes[x].selectorText;
+            if (selectorClass !== undefined)
+                if (selectorClass.includes(classNameWithPseudo) || (selectorClass.includes('.'+className+' ')&&selectorClass.includes(pseudoClassName))) {
+                    style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
+                }
+        }
+    }
+
+    return style.length>0 ? style : false; 
+};
+
+var forcePseudo = function(className, pseudoClassName) {
+    
+    let style = getStyle(className,pseudoClassName);
+    if (style !== false) {
+
+      style.forEach(rule => {
+        rule = rule.toString().replaceAll(':' + pseudoClassName, '');
+        rule = rule.toString().replaceAll(';', ' !important;');
+        rule = rule.toString().replaceAll('!important ', ' ');
+        rule = rule.toString().replaceAll(/(?<!\)) {/gm,'.forced {');
+        document.styleSheets[0].insertRule(rule, 0);
+      })
+
+    }
+};
+
+
+function handleElem(elem) {
+    while (elem.classList.length == 0) {
+        elem = elem.parentElement;
+    }
+
+    elem.classList.forEach(className=>forcePseudo(className, 'hover'));
+}
+
+//to remove changes
+// document.styleSheets[0].deleteRule(0);
+
+//Menu selector - div:nth-child(1) controls which menu item
+var selector = "body > header > div.global-nav.outer > div > div.menu-container > div.global-nav.inner > div > div > div > nav > div:nth-child(2) > div > div.dropdown.dropdown-wide";
+
+let elems = document.querySelectorAll(selector);
+
+elems.forEach(elem=>handleElem(elem));
+elems.forEach(elem=>elem.classList.add('forced'));
+
+//Redline selector
+selector = "body > header > div.global-nav.outer > div > div.menu-container > div.global-nav.inner > div > div > div > nav > div:nth-child(2) > div > div.main-nav-link > a";
+
+elems = document.querySelectorAll(selector);
+
+elems.forEach(elem=>handleElem(elem));
+elems.forEach(elem=>elem.classList.add('forced'));
