@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+// -- This is used in the main menu nav test --
+Cypress.Commands.add("eyesCheckRegionBcs", (tag, regionSelector, bcs) => {
+    cy.eyesCheckWindow({
+        tag: tag,
+        target: 'region',
+        selector: {
+            type: 'css',
+            selector: regionSelector
+        },
+        scriptHooks: {
+            beforeCaptureScreenshot: bcs
+        }
+    });
+})

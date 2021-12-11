@@ -37,8 +37,12 @@ describe("AppTest", () => {
                     regionSelector[3] = regionSelector[2].replaceAll('(3)', '(4)')
                     regionSelector[4] = regionSelector[3].replaceAll('(4)', '(5)')
                     regionSelector[5] = regionSelector[4].replaceAll('(5)', '(6)')
-                    
 
+                    var tagNames = new Array(3)
+                    tagNames[0] = 'Main Menu Donate - Ways to Donate Money - Hover'
+                    tagNames[1] = 'Main Menu Donate - Where Your Money Goes - Hover'
+                    tagNames[2] = 'Main Menu Donate - Companies and Foundations - Hover'
+                    
                     cy.visit('https://redcross.org')
 
                     cy.eyesOpen({
@@ -47,42 +51,10 @@ describe("AppTest", () => {
                         testName: 'Main Menu Hover Test Headings Drop Shadow',
                     })
 
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Ways to Donate Money - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[0]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Where Your Money Goes - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[1]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Companies and Foundations - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[2]
-                        }
-                    });
-
+                    for(var i=0;i<=2;i++){
+                        cy.eyesCheckRegionBcs(tagNames[i], regionSelector[0], bcs[i])    
+                    }
+                    
                     cy.eyesClose() 
 
                 })
@@ -109,7 +81,11 @@ describe("AppTest", () => {
                     regionSelector[3] = regionSelector[2].replaceAll('(3)', '(4)')
                     regionSelector[4] = regionSelector[3].replaceAll('(4)', '(5)')
                     regionSelector[5] = regionSelector[4].replaceAll('(5)', '(6)')
-                    
+
+                    var tagNames = new Array(3)
+                    tagNames[0] = 'Main Menu Donate - Donate Online - Hover'
+                    tagNames[1] = 'Main Menu Donate - Stock Transfer - Hover'
+                    tagNames[2] = 'Main Menu Donate - Stock Transfer - Hover'
 
                     cy.visit('https://redcross.org')
 
@@ -119,41 +95,9 @@ describe("AppTest", () => {
                         testName: 'Main Menu Hover Test List Items Bold',
                     })
 
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Donate Online - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[0]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Stock Transfer - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[1]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate - Monthly Gifts - Hover',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[2]
-                        }
-                    });
+                    for(var i=0;i<=2;i++){
+                        cy.eyesCheckRegionBcs(tagNames[i], regionSelector[0], bcs[i])    
+                    }
 
                     cy.eyesClose() 
 
@@ -183,6 +127,14 @@ describe("AppTest", () => {
                     regionSelector[3] = regionSelector[2].replaceAll('(3)', '(4)')
                     regionSelector[4] = regionSelector[3].replaceAll('(4)', '(5)')
                     regionSelector[5] = regionSelector[4].replaceAll('(5)', '(6)')
+
+                    var tagNames = new Array(6)
+                    tagNames[0] = 'Main Menu Donate'
+                    tagNames[1] = 'Main Menu Give Blood'
+                    tagNames[2] = 'Main Menu Training & Certification'
+                    tagNames[3] = 'Main Menu Volunteer'
+                    tagNames[4] = 'Main Menu About Us'
+                    tagNames[5] = 'Main Menu Get Help'
                     
 
                     cy.visit('https://redcross.org')
@@ -193,77 +145,10 @@ describe("AppTest", () => {
                         testName: 'Main Menu Test',
                     })
 
-                    cy.eyesCheckWindow({
-                        tag: 'Main Menu Donate',
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[0]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[0]
-                        }
-                    });
+                    for(var i=0;i<=5;i++){
+                        cy.eyesCheckRegionBcs(tagNames[i], regionSelector[i], bcs[i])    
+                    }
 
-                    cy.eyesCheckWindow({
-                        tag: "Main Menu Give Blood",
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[1]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[1]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: "Main Menu Training & Certification",
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[2]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[2]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: "Main Menu Volunteer",
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[3]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[3]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: "Main Menu About Us",
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[4]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[4]
-                        }
-                    });
-
-                    cy.eyesCheckWindow({
-                        tag: "Main Menu Get Help",
-                        target: 'region',
-                        selector: {
-                            type: 'css',
-                            selector: regionSelector[5]
-                        },
-                        scriptHooks: {
-                            beforeCaptureScreenshot: bcs[5]
-                        }
-                    });
                     cy.eyesClose() 
 
                 })
