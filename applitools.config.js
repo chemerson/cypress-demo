@@ -11,9 +11,12 @@ module.exports = {
     polyfillAdoptedStyleSheets: true,
     failCypressOnDiff: false,
     layoutBreakpoints: false,
+    waitBeforeCapture: 1000,
     browser: [
         // Add browsers with different viewports
         {width: 1024, height: 768, name: 'chrome'},
+        {width: 1024, height: 768, name: 'firefox'},
+        {width: 1024, height: 768, name: 'safari'}
      ],
     // set batch name to the configuration
     batchName: 'Applitools Demo'

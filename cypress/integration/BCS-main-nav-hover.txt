@@ -29,7 +29,8 @@ var forcePseudo = function(className, pseudoClassName) {
         rule = rule.toString().replaceAll(':' + pseudoClassName, '');
         rule = rule.toString().replaceAll(';', ' !important;');
         rule = rule.toString().replaceAll('!important ', ' ');
-        //rule = rule.toString().replaceAll(/(?<!\)) {/gm,'.forced {');  lookbehind not supported by safari
+        // rule = rule.toString().replaceAll(/(?<!\)) {/gm,'.forced {');  lookbehind not supported by safari
+
 
         rule = rule.toString().replaceAll(/ {/gm,'.forced {');
         rule = rule.toString().replaceAll(/\).forced {/gm,'\) {');
@@ -40,25 +41,30 @@ var forcePseudo = function(className, pseudoClassName) {
     }
 };
 
-
-function handleElem(elem) {
+function handleElemMenu(elem) {
     while (elem.classList.length == 0) {
         elem = elem.parentElement;
     }
 
     elem.classList.forEach(className=>forcePseudo(className, 'hover'));
+
+}
+
+function handleElemHover(elem) {
+    while (elem.classList.length == 0) {
+        elem = elem.parentElement;
+    }
+
+    elem.classList.forEach(className=>forcePseudo(className, 'not(.no-link):hover'));
+
 }
 
 var selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide";
-
 let elems = document.querySelectorAll(selector);
-
-elems.forEach(elem=>handleElem(elem));
+elems.forEach(elem=>handleElemMenu(elem));
 elems.forEach(elem=>elem.classList.add('forced'));
 
-selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.main-nav-link > a";
-
+selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child(1) > div > a";
 elems = document.querySelectorAll(selector);
-
-elems.forEach(elem=>handleElem(elem));
+elems.forEach(elem=>handleElemHover(elem));
 elems.forEach(elem=>elem.classList.add('forced'));
