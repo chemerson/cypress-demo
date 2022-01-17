@@ -11,6 +11,8 @@
 - Or hard code API key into applitools.config.js
     
 3.  Run one of the following commands:
+- To run the Red Cross main menu test:
+    - `npm run redcross`  
 - To run Visual AI Test Suite on Version 1:
     - `npm run V1`
 - To run Visual AI Test Suite on Version 2:
