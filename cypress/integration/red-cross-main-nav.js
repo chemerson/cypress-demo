@@ -12,6 +12,7 @@ describe("AppTest", () => {
         var mainMenuRegion = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div'  //replace (1) and increment
 
         var hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child('
+        hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child('
         var hoverBoldPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child(1) > ul > li:nth-child('
 
         var content
@@ -55,6 +56,12 @@ describe("AppTest", () => {
                         cy.eyesCheckRegionBcs(tagNames[i], regionSelector[0], bcs[i])    
                     }
                     
+                    cy.eyesCheckWindow({
+                        tag: 'full page',
+                        target: 'window'
+                        
+                    });
+
                     cy.eyesClose() 
 
                 })
@@ -85,7 +92,7 @@ describe("AppTest", () => {
                     var tagNames = new Array(3)
                     tagNames[0] = 'Main Menu Donate - Donate Online - Hover'
                     tagNames[1] = 'Main Menu Donate - Stock Transfer - Hover'
-                    tagNames[2] = 'Main Menu Donate - Stock Transfer - Hover'
+                    tagNames[2] = 'Main Menu Donate - Monthly Gifts - Hover'
 
                     cy.visit('https://redcross.org')
 

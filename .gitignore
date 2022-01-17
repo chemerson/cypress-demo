@@ -75,3 +75,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+.DS_Store
+cypress/.DS_Store
+cypress/videos/red-cross-main-nav.js.mp4
