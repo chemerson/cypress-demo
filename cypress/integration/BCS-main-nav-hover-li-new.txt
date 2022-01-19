@@ -12,8 +12,12 @@ var getStyle = function(className,pseudoClassName) {
                 selectorClass = classes[x].selectorText;
             if (selectorClass !== undefined)
                 if (selectorClass.includes(classNameWithPseudo) || (selectorClass.includes('.'+className+' ')&&selectorClass.includes(pseudoClassName))) {
-                    style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
-                    
+                    if(selectorClass.includes("font-weight")){
+                        style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
+                    }
+                    if(selectorClass.includes("dropdown")){
+                        style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
+                    }     
                 }
         }
     }
@@ -67,5 +71,5 @@ elems.forEach(elem=>elem.classList.add('forced'));
 
 selector = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child(1) > ul > li:nth-child(1) > a';
 elems = document.querySelectorAll(selector);
-elems.forEach(elem=>handleElemHover(elem));
+elems.forEach(elem=>handleElemMenu(elem));
 elems.forEach(elem=>elem.classList.add('forced'));

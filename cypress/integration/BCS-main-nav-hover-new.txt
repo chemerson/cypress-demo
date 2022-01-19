@@ -12,8 +12,13 @@ var getStyle = function(className,pseudoClassName) {
                 selectorClass = classes[x].selectorText;
             if (selectorClass !== undefined)
                 if (selectorClass.includes(classNameWithPseudo) || (selectorClass.includes('.'+className+' ')&&selectorClass.includes(pseudoClassName))) {
-                    style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
-                    
+                    if(selectorClass.includes("text-shadow")){
+                        style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
+                    }
+                    if(selectorClass.includes("dropdown")){
+                        style.push(classes[x].cssText ? classes[x].cssText : classes[x].style.cssText);
+                    }
+
                 }
         }
     }
@@ -30,7 +35,7 @@ var forcePseudo = function(className, pseudoClassName) {
         rule = rule.toString().replaceAll(':' + pseudoClassName, '');
         rule = rule.toString().replaceAll(';', ' !important;');
         rule = rule.toString().replaceAll('!important ', ' ');
-        //rule = rule.toString().replaceAll(/(?<!\)) {/gm,'.forced {');      lookbehind not supported by safari
+        // rule = rule.toString().replaceAll(/(?<!\)) {/gm,'.forced {');  lookbehind not supported by safari
 
 
         rule = rule.toString().replaceAll(/ {/gm,'.forced {');
@@ -60,12 +65,14 @@ function handleElemHover(elem) {
 
 }
 
+
 var selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide";
 let elems = document.querySelectorAll(selector);
 elems.forEach(elem=>handleElemMenu(elem));
 elems.forEach(elem=>elem.classList.add('forced'));
 
-selector = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child(1) > ul > li:nth-child(1) > a';
+
+selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child(1) > div > a"
 elems = document.querySelectorAll(selector);
-elems.forEach(elem=>handleElemHover(elem));
+elems.forEach(elem=>handleElemMenu(elem));
 elems.forEach(elem=>elem.classList.add('forced'));

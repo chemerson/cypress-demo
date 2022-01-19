@@ -11,14 +11,15 @@ describe("AppTest", () => {
         var mainMenuPrefix = '.inner > div > div > div > nav > div:nth-child('  // increment after this for each menu
         var mainMenuRegion = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div'  //replace (1) and increment
 
-        var hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child('
-        hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child('
-        var hoverBoldPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child(1) > ul > li:nth-child('
+        // replaced in BCS-main-nav-hover-new.txt var hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child('
+        var hoverShadowPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child('            
+        // replaced in BCS-main-nav-hover-li-new.txt var hoverBoldPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide.forced > div > nav:nth-child(1) > ul > li:nth-child('
+        var hoverBoldPrefix = '.inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide > div > nav:nth-child(1) > ul > li:nth-child('
 
         var content
 
         // Sample Test Top Red Menu hover styles
-        cy.readFile('cypress/integration/BCS-main-nav-hover.txt')
+        cy.readFile('cypress/integration/BCS-main-nav-hover-new.txt')
             .then(($content) => (content = $content))
             .then(() => {
                 cy.wrap(content).as('content')
@@ -68,7 +69,7 @@ describe("AppTest", () => {
             })
 
         // Sample Test Menu sub-items bold
-        cy.readFile('cypress/integration/BCS-main-nav-hover-li.txt')
+        cy.readFile('cypress/integration/BCS-main-nav-hover-li-new.txt')
             .then(($content) => (content = $content))
             .then(() => {
                 cy.wrap(content).as('content')
