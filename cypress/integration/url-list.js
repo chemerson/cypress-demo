@@ -27,13 +27,13 @@ describe('Cypress Applitools Demo', () => {
             current_config = test_config[i].split(',');
 
             if(current_config[0] == "app name")
-            appName = current_config[1];
+                appName = current_config[1];
             else if(current_config[0] == "test name")
-            testName = current_config[1];
+                testName = current_config[1];
             else if(current_config[0] == "batch name")
-            batchName = current_config[1];
+                batchName = current_config[1];
             else if(current_config[0] == "match level" && current_config[1] != '')
-            matchLevel = current_config[1].trim();
+                matchLevel = current_config[1].trim();
         }
 
         if(batchName == "")
@@ -66,7 +66,7 @@ describe('Cypress Applitools Demo', () => {
 
                         cy.eyesOpen({
                             appName: appName,
-                            testName: testName,
+                            testName: my_urls[url], // testName,
                             batchName: batchName,
                             matchLevel: matchLevel,
                         });

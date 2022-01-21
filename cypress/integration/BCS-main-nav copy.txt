@@ -1,5 +1,0 @@
-
-var selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.dropdown.dropdown-wide";
-
-selector = ".inner > div > div > div > nav > div:nth-child(1) > div > div.main-nav-link > a";
-
