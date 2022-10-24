@@ -4,23 +4,40 @@ module.exports = {
     testConcurrency: 100,
     disableBrowserFetching: true,
     batchSequenceName: 'RCA POC',
-    branchName: 'RedCross_3',
+    branchName: 'Cypress 061722B',
     parentBranchName: 'default',
+    appName: 'cypress demo 1',
     saveDebugData: false,
     ignoreDisplacements: false,
     polyfillAdoptedStyleSheets: true,
     failCypressOnDiff: false,
-    layoutBreakpoints: false,
+    layoutBreakpoints: true,
     waitBeforeCapture: 250,
+    accessibilityValidation: {level: 'AA', guidelinesVersion: 'WCAG_2_0'},
     browser: [
         // Add browsers with different viewports
         {width: 1024, height: 768, name: 'chrome'},
         {width: 1024, height: 768, name: 'firefox'},
         {width: 1024, height: 768, name: 'safari'},
-        {width: 1024, height: 768, name: 'edgechromium'}
+        {width: 1024, height: 768, name: 'chrome-one-version-back'},
+        {width: 1024, height: 768, name: 'firefox-one-version-back'},
+        {width: 1024, height: 768, name: 'safari-one-version-back'},
+        {width: 500, height: 768, name: 'chrome'},
+        {width: 500, height: 768, name: 'firefox'},
+        {width: 500, height: 768, name: 'safari'},
+        {width: 500, height: 768, name: 'chrome-one-version-back'},
+        {width: 500, height: 768, name: 'firefox-one-version-back'},
+        {width: 500, height: 768, name: 'safari-one-version-back'},
+        { iosDeviceInfo: {deviceName: 'iPhone X', 
+          screenOrientation: 'portrait', 
+          version: 'latest'}},
+        { iosDeviceInfo: {deviceName: 'iPhone 12', 
+          screenOrientation: 'portrait', 
+          version: 'latest'}},
+        { chromeEmulationInfo: {deviceName: 'Pixel 4 XL'}} 
      ],
     // set batch name to the configuration
-    batchName: 'Applitools Demo'
+    batchName: 'Applitools Demo (Cypress)'
   }
 
   /** chrome

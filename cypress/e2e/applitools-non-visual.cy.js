@@ -109,6 +109,6 @@ describe("Validate Log-in Functionality", () => {
     cy.get("#username").type("demo@applitools.com");
     cy.get("#password").type("password");
     cy.get("#log-in").click();
-    cy.url().should("eq", "http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/hackathonApp.html");
+    cy.url().should("eq", "http://applitoolsdemo.eastus.cloudapp.azure.com/hackathonApp.html");
   });
 });

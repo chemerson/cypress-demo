@@ -18,13 +18,25 @@ describe('URL Validation Applitools', () =>{
     }) 
 
     it('URL Check 1', () => {
-        let url = "https://stage-www.redcross.org/"
+        let url = "https://the-internet.herokuapp.com/"
         cy.visit(url)
         cy.eyesCheckWindow(url)  
     })
 
     it('URL Check 2', () => {
-        let url = "https://stage-www.redcross.org/local/california/los-angeles/about-us/leadership.html"
+        let url = "https://the-internet.herokuapp.com/abtest"
+        cy.visit(url)
+        cy.eyesCheckWindow(url) 
+    })
+
+    it('URL Check 3', () => {
+        let url = "https://the-internet.herokuapp.com/add_remove_elements/"
+        cy.visit(url)
+        cy.eyesCheckWindow(url)  
+    })
+
+    it('URL Check 4', () => {
+        let url = "https://the-internet.herokuapp.com/checkboxes"
         cy.visit(url)
         cy.eyesCheckWindow(url) 
     })

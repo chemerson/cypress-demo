@@ -1,0 +1,4 @@
+
+> cypress-demo@1.0.0 V1
+> cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html ./applitools.spec.js
+

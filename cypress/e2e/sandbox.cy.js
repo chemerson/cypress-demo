@@ -51,17 +51,10 @@ describe("sandbox", () => {
 
     it('Long Page', () => {
         // let url = 'https://en.wikipedia.org/wiki/Atom'
-        let url = 'https://wayfair.com'
-        cy.visit(url,
-        {
-            onLoad: (win) => {
-               // win.scrollTo(0,2000)
-            }           
-        });
+        let url = 'https://rocketlawyer.com'
+        cy.visit(url,);
 
-        cy.scrollTo('bottom', {duration: 3000})
-        cy.scrollTo('bottom', {duration: 3000})
-        cy.scrollTo('bottom', {duration: 3000})
+        // cy.scrollTo('bottom', {duration: 3000})
 
         cy.eyesCheckWindow(url)  
     })

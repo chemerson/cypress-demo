@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "url-list": "npx cypress run --headed -b chrome --spec cypress/integration/url-list.js --config video=false",
-    "redcross": "npx cypress run --headed -b chrome --spec cypress/integration/red-cross-main-nav.js --config video=false",
-    "V1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html ./applitools.spec.js",
-    "V2": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=2 ./applitools.spec.js",
-    "VCL1": "cypress open --config baseUrl=http://applitoolsjenkins.eastus.cloudapp.azure.com:5000/demo.html?version=1&changelogo=true"
+    "url-list": "npx cypress run --headed -b chrome --spec cypress/e2e/url-list.cy.js --config video=false",
+    "redcross": "npx cypress run --headed -b chrome --spec cypress/e2e/red-cross-main-nav.cy.js --config video=false",
+    "V1": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html ./applitools.spec.js",
+    "V2": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2 ./applitools.spec.js",
+    "VCL1": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=1&changelogo=true"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.22.6",
-    "cypress": "^9.2.1"
+    "@applitools/eyes-cypress": "^3.27.5",
+    "cypress": "^10.10.0"
+  },
+  "dependencies": {
+    "electron": "^21.2.0",
+    "npm-update": "^2.1.0"
   }
 }

@@ -1,3 +1,4 @@
+ /// <reference types="@applitools/eyes-cypress" />
 describe("AppTest", () => {
 
     it(`rcoPocTest`, function () {
@@ -19,7 +20,7 @@ describe("AppTest", () => {
         var content
 
         // Sample Test Top Red Menu hover styles
-        cy.readFile('cypress/integration/BCS-main-nav-hover-new.txt')
+        cy.readFile('cypress/e2e/BCS-main-nav-hover-new.txt')
             .then(($content) => (content = $content))
             .then(() => {
                 cy.wrap(content).as('content')
@@ -69,7 +70,7 @@ describe("AppTest", () => {
             })
 
         // Sample Test Menu sub-items bold
-        cy.readFile('cypress/integration/BCS-main-nav-hover-li-new.txt')
+        cy.readFile('cypress/e2e/BCS-main-nav-hover-li-new.txt')
             .then(($content) => (content = $content))
             .then(() => {
                 cy.wrap(content).as('content')
@@ -113,7 +114,7 @@ describe("AppTest", () => {
             })
 
         // Test each main menu for layout
-         cy.readFile('cypress/integration/BCS-main-nav.txt')
+         cy.readFile('cypress/e2e/BCS-main-nav.txt')
             .then(($content) => (content = $content))
             .then(() => {
                 cy.wrap(content).as('content')
