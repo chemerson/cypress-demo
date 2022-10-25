@@ -1,6 +1,6 @@
 'use strict';
   
-describe('Cypress Applitools Demo', () => {
+describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
   it('Cypress Demo', () => {
 
     var appName = "";

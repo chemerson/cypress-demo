@@ -2,15 +2,16 @@
 
 
 
-describe('Visual Validation Applitools', () =>{ 
+describe('Visual Validation Applitools', { tags: '@visual' }, () =>{ 
    
     before(function() {
         cy.visit(Cypress.config('baseUrl'));
-        
+        cy.task('log', '  Tags: ' + Cypress.env('grepTags'));
     });
     beforeEach(function() {
         cy.eyesOpen({
-            testName: this.currentTest.title
+            testName: this.currentTest.title,
+            properties: [{name: 'Tags', value: Cypress.env('grepTags')}]
         })
     })
     afterEach(() => {

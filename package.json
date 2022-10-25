@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "url-list": "npx cypress run --headed -b chrome --spec cypress/e2e/url-list.cy.js --config video=false",
-    "redcross": "npx cypress run --headed -b chrome --spec cypress/e2e/red-cross-main-nav.cy.js --config video=false",
-    "V1": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html ./applitools.spec.js",
-    "V2": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2 ./applitools.spec.js",
-    "VCL1": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=1&changelogo=true"
+    "V1": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
+    "V2": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
+    "VCL1": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?changelogo=true",
+    "NV1": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
+    "NV2": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
+    "NVCL1": "cypress run --env grepTags='non-@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=1&changelogo=true"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.27.5",
-    "cypress": "^10.10.0"
+    "cypress": "^10.10.0",
+    "cypress-grep": "^3.0.3"
   },
   "dependencies": {
     "electron": "^21.2.0",

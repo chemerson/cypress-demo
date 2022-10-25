@@ -1,4 +1,4 @@
-describe("sandbox", () => {
+describe("sandbox", { tags: '@norun' }, () => {
 
     beforeEach(function() {
         cy.on('uncaught:exception', (err, runnable) => {

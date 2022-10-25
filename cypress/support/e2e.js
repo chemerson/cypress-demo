@@ -13,6 +13,9 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+import registerCypressGrep from 'cypress-grep'
+registerCypressGrep()
+
 import '@applitools/eyes-cypress/commands'
 
 

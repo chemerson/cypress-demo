@@ -2,15 +2,16 @@
 
 
 
-describe('URL Validation Applitools', () =>{ 
+describe('URL Validation Applitools', { tags: '@norun' }, () =>{ 
 
 
-    beforeEach(() {
+    beforeEach(function() {
         cy.eyesOpen({
             appName: 'cypress demo 1',
             branchName: 'cypress demo url 1',
             parentBranchName: 'cypress demo parent 1',
             testName: this.currentTest.title,
+            properties: [{name: 'Tags', value: Cypress.env('grepTags')}]
         })
     })
     afterEach(() => {

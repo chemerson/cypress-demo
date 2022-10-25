@@ -2,10 +2,13 @@
 
 before(() => {
   cy.visit(Cypress.config('baseUrl'));
-  
+
+  cy.task('log', '  Tags: ' + Cypress.env('grepTags'));
+
 });
 
-describe("Validate Labels", () => {
+describe("Validate Labels", { tags: ['@non-visual', '@cmetest', '@anothertag'] }, () => {
+
   // Assert Text of Login Form
   it("Login Form", () => {
     cy.get(".auth-header").should("contain", "Login Form");
