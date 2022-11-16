@@ -1,6 +1,7 @@
 'use strict';
-  
-describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
+
+
+describe('Cypress Applitools Demo', { tags: '@url' }, () => {
   it('Cypress Demo', () => {
 
     var appName = "";
@@ -8,6 +9,9 @@ describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
     var batchName = "";
     var matchLevel  = "";
     var branchName = "";
+    var content
+    var changeFile
+    var ac
 
     cy.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
@@ -44,7 +48,7 @@ describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
                 for(var url = 1; url < my_urls.length; url++){  
                     if(my_urls[url] != '')
                     {
-                        cy.log("******************** URL#" + my_urls[url] + "********************");
+                        cy.log("URL: " + my_urls[url]);
                         cy.visit(my_urls[url], 
                             {
                             onLoad: (contentWindow) => {
@@ -52,15 +56,21 @@ describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
                             },
                             failOnStatusCode: false
                         });
+                        
 
-                        cy.window().then((win) => {
-                            win.eval('document.querySelector("body").style.opacity = "1"')
-                        });
+                        //Accept cookie button handling
+                        ac='#hs-eu-confirmation-button'
+                        cy.get('body')
+                        .then(($body) => {
+                          if ($body.find(ac).length) {
+                            cy.get(ac).click()
+                          }
+                        })
 
                         testName = my_urls[url]
                     
-                       // cy.scrollTo('bottom', {duration: 250})
-                       // cy.scrollTo('top', {duration: 250})
+                        cy.scrollTo('bottom', {duration: 250})
+                        cy.scrollTo('top', {duration: 250})
 
                         cy.wait(500)
 
@@ -71,9 +81,34 @@ describe('Cypress Applitools Demo', { tags: '@norun' }, () => {
                             matchLevel: matchLevel,
                         });
 
-                        cy.eyesCheckWindow({
-                            tag: my_urls[url]
-                        });
+                       // changeFile = 'cypress/e2e/changers/element-add.js'
+                       // changeFile = 'cypress/e2e/changers/replace-value.js'
+                       // changeFile = 'cypress/e2e/changers/align-center.js'
+                       // changeFile = 'cypress/e2e/changers/change-margin.js'
+                       // changeFile = 'cypress/e2e/changers/remove-element.js'
+                       // changeFile = 'cypress/e2e/changers/replace-value.js'
+                       // changeFile = 'cypress/e2e/changers/skew-page.js'
+
+                       // changeFile = 'cypress/e2e/changers/element-add.js'
+                       // changeFile = 'cypress/e2e/changers/change-bg-color.js'
+                        changeFile = 'cypress/e2e/changers/nochange.js'
+
+                        // Add a UFG BCS to change the page
+                        cy.readFile(changeFile)
+                            .then(($content) => (content = $content))
+                            .then(() => {
+                                cy.wrap(content).as('content')
+
+                                cy.get('@content').then( $content => {
+
+                                    cy.eyesCheckWindow({
+                                        tag: my_urls[url],
+                                        scriptHooks: {
+                                            beforeCaptureScreenshot: $content
+                                        }
+                                    });
+                                })
+                            })
 
                         cy.eyesClose() 
 

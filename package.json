@@ -4,22 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "V1": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
-    "V2": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
-    "VCL1": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?changelogo=true",
-    "NV1": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
-    "NV2": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
-    "NVCL1": "cypress run --env grepTags='non-@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=1&changelogo=true"
+    "v1": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
+    "v2": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
+    "vcl": "cypress run --env grepTags='@visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?changelogo=true",
+    "nv1": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
+    "nv2": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
+    "nvcl": "cypress run --env grepTags='@non-visual' --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=1&changelogo=true",
+    "ov1": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html",
+    "ov2": "cypress open --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?version=2",
+    "ovcl": "cypress open  --config baseUrl=http://applitoolsdemo.eastus.cloudapp.azure.com/demo.html?changelogo=true",
+    "url": "cypress run --env grepTags='@url'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.27.5",
-    "cypress": "^10.10.0",
-    "cypress-grep": "^3.0.3"
+    "@applitools/eyes-cypress": "^3.27.6",
+    "cypress": "^10.11.0",
+    "cypress-grep": "^3.0.4",
+    "typescript": "^4.8.4"
   },
   "dependencies": {
-    "electron": "^21.2.0",
-    "npm-update": "^2.1.0"
+    "electron": "^21.2.2",
+    "npm-update": "^3.0.1"
   }
 }

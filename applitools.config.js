@@ -1,14 +1,15 @@
 module.exports = {
     apiKey: process.env.APPLITOOLS_API_KEY,
+    eyesIsDisabled: false,
     showLogs: false,
     testConcurrency: 100,
-    disableBrowserFetching: true,
     batchSequenceName: 'Cypress 1',
-    branchName: 'Cypress 1025221',
+    branchName: 'Cypress 111122_1',
     parentBranchName: 'default',
     appName: 'cypress demo 1',
+    dontCloseBatches: false,
     saveDebugData: false,
-    ignoreDisplacements: false,
+    ignoreDisplacements: true,
     polyfillAdoptedStyleSheets: true,
     failCypressOnDiff: false,
     layoutBreakpoints: true,
@@ -16,22 +17,16 @@ module.exports = {
     accessibilityValidation: {level: 'AA', guidelinesVersion: 'WCAG_2_0'},
     browser: [
         // Add browsers with different viewports
-        {width: 1024, height: 768, name: 'chrome'},
-        {width: 1024, height: 768, name: 'firefox'},
-        {width: 1024, height: 768, name: 'safari'},
-        {width: 1024, height: 768, name: 'chrome-one-version-back'},
-        {width: 1024, height: 768, name: 'firefox-one-version-back'},
-        {width: 1024, height: 768, name: 'safari-one-version-back'},
-        {width: 500, height: 768, name: 'chrome'},
-        {width: 500, height: 768, name: 'firefox'},
-        {width: 500, height: 768, name: 'safari'},
-        {width: 500, height: 768, name: 'chrome-one-version-back'},
-        {width: 500, height: 768, name: 'firefox-one-version-back'},
-        {width: 500, height: 768, name: 'safari-one-version-back'},
-        { iosDeviceInfo: {deviceName: 'iPhone X', 
+        {width: 500, height: 1000, name: 'chrome'},
+        {width: 500, height: 1000, name: 'firefox'},
+        {width: 500, height: 1000, name: 'safari'},
+        {width: 1500, height: 1000, name: 'chrome'},
+        {width: 1500, height: 1000, name: 'firefox'},
+        {width: 1500, height: 1000, name: 'safari'},
+        { iosDeviceInfo: {deviceName: 'iPhone 12', 
           screenOrientation: 'portrait', 
           version: 'latest'}},
-        { iosDeviceInfo: {deviceName: 'iPhone 12', 
+        { iosDeviceInfo: {deviceName: 'iPhone 14', 
           screenOrientation: 'portrait', 
           version: 'latest'}},
         { chromeEmulationInfo: {deviceName: 'Pixel 4 XL'}} 
@@ -40,7 +35,11 @@ module.exports = {
     batchName: 'Applitools Demo (Cypress)'
   }
 
-  /** chrome
+  /** 
+   * 
+   *  baselineEnvName: 'Mac OS X 12.6 Safari 16.0 1500x1000',
+   * 
+   * chrome
 * chrome-canary
 * firefox
 * ie10

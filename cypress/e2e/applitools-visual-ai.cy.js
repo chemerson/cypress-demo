@@ -17,11 +17,13 @@ describe('Visual Validation Applitools', { tags: '@visual' }, () =>{
     afterEach(() => {
         cy.eyesClose()
     }) 
+    after(() => {
+        cy.log(cy.eyesGetAllTestResults())
+    }) 
 
     it('Display Elements of Authentification Page', () => {
         cy.eyesCheckWindow('Login Page')  
     })
-    
 
     it('Login Attempt no username and no password', () =>{
         cy.get("#log-in").click();
@@ -46,4 +48,9 @@ describe('Visual Validation Applitools', { tags: '@visual' }, () =>{
         cy.get("#log-in").click();
         cy.eyesCheckWindow('Login Attempt - Success')
     })
+    after(() => {
+        cy.eyesGetAllTestResults().then(summary => {
+          console.log(summary)
+        })
+      })
 })
